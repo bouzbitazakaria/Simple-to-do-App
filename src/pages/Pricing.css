@@ -1,0 +1,132 @@
+*{
+  margin: 0;
+}
+.Pricing_Comp{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  justify-content: center;
+  width: max-content;
+  height: max-content;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Pricing_sideBarre {
+  font-family: cursive;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 30%;
+  height: 95%;
+  border-radius: 25px;
+  padding: 10px 10px;
+  background-color: rgba(0, 166, 255, 0.271);
+}
+.Pricing_sideBarre img {
+  width: 100px;
+  height: 100px;
+}
+.Pricing_prices{
+  width: fit-content;
+  font-family: cursive;
+  box-shadow: 5px 5px 20px rgba(0, 255, 255, 0.363);
+  border-radius: 20px;
+  background-color: rgba(0, 255, 255, 0.099);
+  padding: 10px 10px;
+  height: fit-content;
+}
+
+.FreeTrial{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.FreeTrial p{
+  margin-top: 0;
+  margin: 20px;
+}
+.Price_Basic {
+  display: flex;
+  border: solid 2px;
+  width: 40%;
+  height: fit-content;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 10px;
+  border-radius: 5px;
+  background-color: rgba(0, 149, 255, 0.221);
+}
+
+.Price_Basic h1{
+  display: inline;
+}
+.Features{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.Price_Basic img{
+  width: 50px;
+  height: 50px;
+}
+.PB_icon{
+  padding: 0;
+  margin: 0;
+  width: 25px;
+  height: 25px;
+}
+.Features{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Price_Basic h1{
+  text-align: center;
+}
+.Price_Basic button{
+  padding: 10px 25px;
+  background-color: rgba(137, 43, 226, 0.57);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 25px;
+}
+.Price_Pro{
+  display: flex;
+  border: solid 2px;
+  width: 40%;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 10px;
+  border-radius: 5px;
+  background-color: rgba(0, 149, 255, 0.221);
+}
+.Price_Pro img{
+  width: 50px;
+  height: 50px;
+}
+.Prices{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 700px;
+}
+.Price_Pro h1{
+  text-align: center;
+}
+.Price_Pro button{
+  padding: 10px 25px;
+  background-color: rgba(137, 43, 226, 0.57);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Price_Pro h1{
+  display: inline;
+}

@@ -1,0 +1,95 @@
+*{
+  margin: 0;
+  font-family: cursive;
+}
+.App{
+  background-image: url("./components/R.jpg");
+  height: 100vh;
+}
+.List_tasks{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 1px;
+  padding: 5px 5px;
+  width: 250px;
+  height: max-content;
+  color:azure
+}
+h3{
+  color: rgb(177, 224, 255);
+}
+.Daily_tasks{
+  width: 90%;
+  border: solid 1px;
+  border-radius: 5px;
+  padding: 10px 10px;
+  height: fit-content;
+}
+.inp_task{
+  margin-top: 5px;
+  border-radius: 10px;
+  padding: 0px 5px;
+  height: 20px;
+}
+.add_new_task{
+  display: flex;
+  flex-direction: row ;
+  gap: 10px;
+}
+main{
+  display: grid;
+  grid-template-columns: 300px auto auto;
+  justify-content: space-between;
+  width: 900px;
+  height: 75vh;
+  margin-top: 20px;
+  gap: 5px;
+}
+.btn_add{
+  color: white;
+  background-color: black;
+  border: none;
+}
+.task{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+main .Today_tomorrow {
+  display: flex;
+  flex-direction: column;
+  gap: 10px
+}
+.state_of_task{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.Side_Barre{
+  display: flex;
+  flex-direction: column;
+  padding: 5px 5px;
+  gap: 20px;
+  height: 100%;
+  padding: 10px 10px;
+  color: white;
+}
+.Barretasks{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: solid 1px gray;
+
+}
+.Task_State{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.iconBarre{
+  width: 30px;
+  height: 30px;
+}

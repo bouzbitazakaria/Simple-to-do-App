@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+}
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px 0px;
+  width: 100%;
+  color: aliceblue;
+}
+.logo{
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  cursor: pointer;
+}
+.logo_icon{
+  width: 20px;
+  height: 20px;
+ 
+}
+.links{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 200px;
+}
+.links a {
+  color: rgb(255, 255, 255);
+}
+.brand_name{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+}
+.btn_signUp{
+  color: white;
+  background-color: black;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+.acceuil{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 150px;
+  border: solid 1px;
+  width: 100%;
+}
+.title{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+  padding: 0px 5px;
+  color: white;
+}
+.Slogon{
+  width: 300px;
+  height: 300px;
+  color: rgba(0, 0, 0, 0.719);
+}
+.Get_started{
+  color: white;
+  background-color: black;
+  padding: 5px 10px;
+  border: none;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.Learn_more{
+  color: black;
+  background-color: white;
+  padding: 5px 10px;
+  border: solid 1px;
+  cursor: pointer;
+}
